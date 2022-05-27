@@ -1,3 +1,12 @@
+@font-face {
+	font-family: 'norsebold';
+	src: url('../assets/fonts/norse-bold-webfont.woff2') format('woff2'),
+		url('../assets/fonts/norse-bold-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
 // Box sizing
 *,
 *::before,
@@ -28,14 +37,14 @@ h4,
 h5,
 h6,
 p {
-	font-weight: 700;
+	font-weight: 400;
 }
 
 // Set up the body
 body {
 	font-family: var(--ff-sans);
-	font-size: var(--fs-500);
-	font-weight: 700;
+	font-size: var(--fs-400);
+	font-weight: 400;
 	background-color: var(--clr-bg-main);
 	color: var(--clr-text-dark);
 	line-height: 1.5;
